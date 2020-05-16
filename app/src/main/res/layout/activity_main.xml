@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:anuvaadak="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:background="#2f3887">
+
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="324dp"
+        android:layout_height="581dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="54dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginBottom="96dp"
+        anuvaadak:srcCompat="@mipmap/logp" />
+</RelativeLayout>

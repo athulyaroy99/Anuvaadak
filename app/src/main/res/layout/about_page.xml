@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2f3887">
+
+    <TextView
+        android:id="@+id/simple"
+        android:layout_width="fill_parent"
+        android:layout_height="78dp"
+        android:gravity="center_horizontal"
+        android:text="Anuvaadak"
+        android:textSize="40sp"
+        android:fontFamily="cursive"
+        android:textColor="#fff"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="263dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="84dp"
+        android:layout_marginRight="84dp"
+        android:layout_marginBottom="343dp"
+        android:text="Group Members"
+        android:textColor="#fff"
+        android:fontFamily="cursive"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="135dp"
+        android:layout_height="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="182dp"
+        android:layout_marginRight="182dp"
+        android:layout_marginBottom="243dp"
+        android:text="Athulya Roy"
+        android:textColor="#fff"
+        android:fontFamily="cursive"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="141dp"
+        android:layout_height="43dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="175dp"
+        android:layout_marginRight="175dp"
+        android:layout_marginBottom="189dp"
+        android:text="Aiswarya D R"
+        android:fontFamily="cursive"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="111dp"
+        android:layout_height="38dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="206dp"
+        android:layout_marginRight="206dp"
+        android:layout_marginBottom="288dp"
+        android:text="Abhijeet C"
+        android:textColor="#fff"
+        android:fontFamily="cursive"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/editText"
+        android:layout_width="374dp"
+        android:layout_height="38dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="478dp"
+        android:ems="10"
+        android:fontFamily="cursive"
+        android:inputType="textPersonName"
+        android:text="The app helps the listener to understand the sign"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="351dp"
+        android:layout_height="83dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="401dp"
+        android:fontFamily="cursive"
+        android:text="languages used by the differently abled persons by either understanding in real time or helping the listener to learn sign language ."
+        android:textColor="#fff"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>

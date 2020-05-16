@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.anuvaadak">
+    <uses-feature android:name="android.hardware.camera"
+        android:required="true" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".imagepage"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity
+            android:name=".gridpage"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".about"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".camera"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".language"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".mess"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".alphabets"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".number"
+            android:windowSoftInputMode="adjustPan" />
+
+
+
+
+    </application>
+
+</manifest>

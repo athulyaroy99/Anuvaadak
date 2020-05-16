@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:anuvaadak="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:background="#2f3887">
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="66dp"
+        android:layout_marginLeft="66dp"
+        android:layout_marginEnd="132dp"
+        android:layout_marginRight="132dp"
+        android:layout_marginBottom="540dp"
+        android:backgroundTint="#fff"
+        android:ems="10"
+        android:foregroundTint="#fff"
+        android:hint="Email"
+        android:inputType="textPersonName"
+        android:textColor="#fff"
+        android:textColorHint="#fff" />
+
+    <EditText
+        android:id="@+id/etPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="72dp"
+        android:layout_marginLeft="72dp"
+        android:layout_marginEnd="126dp"
+        android:layout_marginRight="126dp"
+        android:layout_marginBottom="476dp"
+        android:backgroundTint="#fff"
+        android:ems="10"
+        android:foregroundTint="#fff"
+        android:hint="Password"
+        android:inputType="textPersonName"
+        android:textColor="#fff"
+        android:textColorHint="#fff" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="214dp"
+        android:layout_marginRight="214dp"
+        android:layout_marginBottom="395dp"
+        android:background="#FAB333"
+        android:text="Login" />
+
+    <TextView
+        android:id="@+id/inTv"
+        android:layout_width="186dp"
+        android:layout_height="54dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="140dp"
+        android:layout_marginRight="140dp"
+        android:layout_marginBottom="317dp"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:backgroundTint="#fff"
+        android:foregroundTint="#fff"
+        android:text="Number of incorrect attempts" />
+
+
+</RelativeLayout>
